@@ -1,0 +1,20 @@
+{
+  "name": "student-management-api",
+  "private": true,
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "vite --config frontend/vite.config.js",
+    "build": "vite build --config frontend/vite.config.js"
+  },
+  "dependencies": {
+    "axios": "^1.20.0",
+    "cors": "^2.8.6",
+    "express": "^5.3.0",
+    "mysql2": "^3.24.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "vite": "^7.1.0"
+  }
+}
